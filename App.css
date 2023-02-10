@@ -1,0 +1,79 @@
+.user-form {
+  height: 30vh;
+  width: 50vh;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+input {
+  width: 80%;
+  height: 25%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  width: 80%;
+  height: 25%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-list {
+  min-height: 30vh;
+  width: 80vh;
+  border: 3px solid #fff;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.user-card {
+  height: 10vh;
+  width: 80%;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.user-card h3 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.user-card p {
+  font-size: 1.2rem;
+  color: #fff;
+}
